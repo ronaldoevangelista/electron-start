@@ -1,4 +1,13 @@
 #!/bin/bash
 
-npm install && npm start
+sudo 
+
+npm install jspm live-server -g &&
+
+jspm update && 
+
+npm install material-design-lite --save &&
+
+
+npm start
 
